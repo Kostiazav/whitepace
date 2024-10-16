@@ -11,6 +11,15 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mainFont:'#054CA6',
+        second:'#212529',
+        buttonBlue:'#4F9CF9',
+        bgFooter:'#043873',
+        hoverText:'#FFE492'
+      },
+      fontFamily: {
+        inter: 'var(--inter)',
+
       },
     },
   },
