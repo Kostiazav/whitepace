@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable}  bg-white `}
+        className={`${inter.variable}  bg-white  overflow-x-hidden`}
         >
         <Header/>
         <section>
