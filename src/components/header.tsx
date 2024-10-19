@@ -32,10 +32,10 @@ export const Header = () => {
 
   return (
     <header className="flex justify-between items-center p-4">
-      <div>
-        <Image alt="main-logo" src={mainLogo} />
+      <div className='ml-4'>
+        <Image alt="main-logo" src={mainLogo} width={100} height={100} />
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mr-6">
         <button onClick={toggleMenu}>
           <BurgerMenu />
         </button>
