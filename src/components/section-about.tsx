@@ -4,9 +4,9 @@ import about from '../../public/bg-about-left.png';
 import { ArrowRight } from '@/icons/arrow-right';
 export const AboutSection = () => {
   return (
-    <section className="mt-[100px] px-4 relative">
+    <section className="mt-[100px] px-4 relative md:flex md:justify-center md:items-center">
       <div>
-        <h2 className="text-center z-10 relative">
+        <h2 className="text-center md:text-start z-10 relative">
           About{' '}
           <span className="underline-span relative inline-block">
             Window Whales
@@ -17,13 +17,13 @@ export const AboutSection = () => {
             />
           </span>
         </h2>
-        <p className="font-inter font-normal text-[18px] leading-6 text-center mt-8 text-mainFont">
+        <p className="font-inter font-normal text-[18px] leading-6 text-center mt-8 text-mainFont md:text-start">
           Window Whales, founded by two ambitious students at York High School,
           is a burgeoning company that specializes in window cleaning. We take
           pride in our service and provide the best possible cleaning to your
           windows.
         </p>
-        <div className="flex justify-center">
+        <div className="flex justify-center md:justify-start">
           <button className="font-inter font-medium text-[16px] text-nowrap flex items-center leading-5 px-10 py-5 mt-[60px] rounded-[8px] bg-buttonBlue text-white">
             Get Started <ArrowRight />
           </button>

@@ -3,7 +3,7 @@ import bgLine from '../../public/bg-top-done.png';
 
 export const GetMore = () => {
   return (
-    <section className="md:flex w-full">
+    <section className="md:flex md:justify-center md:items-center w-full">
       <div
         className="bg-cover bg-center bg-no-repeat md:!bg-none h-[500px] md:h-auto flex flex-col justify-center md:justify-start items-center md:items-start w-full md:w-1/2"
         style={{ backgroundImage: `url(${bgLine.src})` }}
