@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #171717;;
+  --background: #171717;
   --foreground: #ffffff;
 }
 
@@ -15,14 +15,21 @@
 }
 
 body {
-  padding: 60px  20px 20px 30px;
   color: var(--foreground);
   background: var(--background);
-
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+h2 {
+  @apply font-inter font-bold text-[54px] leading-[65.35px] tracking-[-0.02em] text-center text-mainFont;
+}
+
+
+.underline-span {
+  @apply font-inter font-bold text-[54px] leading-[65.35px] tracking-[-0.02em] text-center text-mainFont;
 }
