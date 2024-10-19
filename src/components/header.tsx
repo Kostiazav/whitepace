@@ -31,7 +31,7 @@ export const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="flex justify-between items-center px-4 border-b-[1px] border-b-blue-500 shadow-lg fixed top-0 right-0 w-full bg-white z-30">
+    <header className="flex justify-between items-center px-4 border-b-[1px] border-b-blue-500 shadow-lg fixed top-0 right-0 w-full bg-white z-30 pt-2">
       <div className="ml-4">
         <a href="#">
           {' '}
