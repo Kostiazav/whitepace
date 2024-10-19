@@ -1,7 +1,7 @@
 export const BurgerMenu = () => {
   return (
     <svg
-      width="35"
+      width="30"
       height="25"
       viewBox="0 0 42 27"
       fill="none"

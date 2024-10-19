@@ -31,12 +31,11 @@ export const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="flex justify-between items-center p-4 border-b-[1px] border-b-blue-500 shadow-lg fixed top-0 right-0 w-full bg-white z-30">
+    <header className="flex justify-between items-center px-4 border-b-[1px] border-b-blue-500 shadow-lg fixed top-0 right-0 w-full bg-white z-30">
       <div className="ml-4">
         <a href="#">
           {' '}
-          {/* Додаємо посилання */}
-          <Image alt="main-logo" src={mainLogo} width={100} height={100} />
+          <Image alt="main-logo" src={mainLogo} width={80} height={80} />
         </a>
       </div>
       <div className="flex justify-center items-center mr-6">
