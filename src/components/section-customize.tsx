@@ -4,9 +4,9 @@ import { ArrowRight } from '@/icons/arrow-right';
 
 export const SectionCustomize = () => {
   return (
-    <section className="mt-[100px] px-4">
+    <section className="mt-[100px] px-4 md:flex md:justify-center md:items-center ">
       <div>
-        <h2 className="text-center z-10 relative">
+        <h2 className="text-center z-10 relative md:text-left">
           Customise it to{' '}
           <span className="underline-span relative inline-block">
             your needs
@@ -17,12 +17,12 @@ export const SectionCustomize = () => {
             />
           </span>
         </h2>
-        <p className="font-inter font-normal text-[18px] leading-6 text-center mt-8 text-mainFont">
+        <p className="font-inter font-normal text-[18px] leading-6 md:text-left text-center mt-8 text-mainFont">
           Lorem ipsum doler gfhdgckjsdgcagvcds dfvdsghcvds hgdvc dshgcv . hdgvc
           hdsgc shgdcv dshgcv sdhg chdgsvc dhs hsgv hdgc s . g dvsav jh ghbds
           asnb . x . vfgdsa sbv .
         </p>
-        <div className="flex justify-center">
+        <div className="flex justify-center md:justify-start">
           <button className="font-inter text-nowrap flex items-center font-medium text-[16px] leading-5 px-10 py-5 mt-[60px] rounded-[8px] bg-buttonBlue text-white">
             Get Started <ArrowRight />
           </button>

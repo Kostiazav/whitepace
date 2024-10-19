@@ -25,7 +25,7 @@ export default function RootLayout({
         className={`${inter.variable}  bg-white  overflow-x-hidden`}
         >
         <Header/>
-        <section>
+        <section className="mt-20">
         {children}
         </section>
         <Footer/>

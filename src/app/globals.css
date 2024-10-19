@@ -29,7 +29,10 @@ h2 {
   @apply font-inter font-bold text-[54px] leading-[65.35px] tracking-[-0.02em] text-center text-mainFont;
 }
 
-
 .underline-span {
   @apply font-inter font-bold text-[54px] leading-[65.35px] tracking-[-0.02em] text-center text-mainFont;
+}
+
+html {
+  scroll-behavior: smooth;
 }

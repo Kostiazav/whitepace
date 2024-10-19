@@ -5,8 +5,8 @@ import { ArrowRight } from '@/icons/arrow-right';
 
 export const SectionSkills = () => {
   return (
-    <section className="py-[40px] px-4 relative bg-bgFooter">
-      <div className="px-[60px] w-full md:w-1/2 flex justify-center items-center mt-[100px]">
+    <section className="py-[40px] px-4 relative bg-bgFooter md:flex">
+      <div className="px-[60px] w-full md:w-1/2 flex justify-center items-center mt-[100px] md:mx-auto">
         <Image
           src={skills}
           alt="skills"
@@ -15,7 +15,7 @@ export const SectionSkills = () => {
           height={350}
         />
       </div>
-      <div>
+      <div className=''>
         <h2 className="text-center z-10 relative text-white mt-16">
           Work with us and you will see our skills
         </h2>
