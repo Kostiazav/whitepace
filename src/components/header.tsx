@@ -34,19 +34,35 @@ export const Header = () => {
     <header className="flex justify-between items-center px-4 border-b-[1px] border-b-blue-500 shadow-lg fixed top-0 right-0 w-full bg-white z-30 pt-2">
       <div className="ml-4">
         <a href="#">
-          {' '}
           <Image alt="main-logo" src={mainLogo} width={80} height={80} />
         </a>
       </div>
-      <div className="flex justify-center items-center mr-6">
+
+      {/* Бургер-меню для маленьких екранів */}
+      <div className="flex justify-center items-center mr-6 md:hidden">
         <button onClick={toggleMenu}>
           <BurgerMenu />
         </button>
       </div>
+
+      {/* Навігаційне меню для екранів середніх і більше */}
+      <nav className="hidden md:flex space-x-8 mr-6">
+        <a href="#" className="text-gray-800 hover:text-blue-500">
+          Menu Item 1
+        </a>
+        <a href="#" className="text-gray-800 hover:text-blue-500">
+          Menu Item 2
+        </a>
+        <a href="#" className="text-gray-800 hover:text-blue-500">
+          Menu Item 3
+        </a>
+      </nav>
+
+      {/* Бічне меню для маленьких екранів */}
       <nav
         className={`fixed top-0 right-0 h-full w-[60%] bg-gray-800 text-white transform ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
-        } transition-transform duration-300 ease-in-out`}
+        } transition-transform duration-300 ease-in-out md:hidden`}
       >
         <button
           onClick={() => setIsOpen(false)}

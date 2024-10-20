@@ -5,17 +5,17 @@ import { ArrowRight } from '@/icons/arrow-right';
 
 export const SectionSkills = () => {
   return (
-    <section className="py-[40px] px-4 relative bg-bgFooter md:flex">
+    <section className="py-[40px] px-4 relative bg-bgFooter md:flex md:justify-center md:items-center">
       <div className="px-[60px] w-full md:w-1/2 flex justify-center items-center mt-[100px] md:mx-auto">
         <Image
           src={skills}
           alt="skills"
-          className="w-full z-20"
+          className="w-full z-20 "
           width={400}
           height={350}
         />
       </div>
-      <div className=''>
+      <div className="md:w-1/2">
         <h2 className="text-center z-10 relative text-white mt-16">
           Work with us and you will see our skills
         </h2>
@@ -35,7 +35,7 @@ export const SectionSkills = () => {
       <Image
         src={skillsBg}
         alt="bg-circule"
-        className="absolute top-20 left-0  w-full"
+        className="absolute top-20 md:top-0 left-0  w-full md:h-[400px]"
         width={300}
         height={350}
       />
